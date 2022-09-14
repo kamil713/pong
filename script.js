@@ -64,6 +64,22 @@ function table() {
 	}
 }
 
+let topCanvas = canvas.offsetTop;
+
+function playerPosition(e) {
+  playerY = e.clientY - topCanvas - paddelHeight / 2;
+
+  if (playerY >= ch - paddelHeight) {
+    playerY = ch - paddelHeight;
+  }
+
+  if (playerY <= 0) {
+    playerY = 0;
+  }
+}
+
+canvas.addEventListener('mousemove', playerPosition);
+
 function game() {
 	table();
 	ball();
