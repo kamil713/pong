@@ -1,12 +1,13 @@
 <div align="center">
 
   <div display="flex">
-    <img src="./img/pong.svg" alt="logo" width="150" height="auto" />
+    <img src="./img/pong.png" alt="logo" width="150" height="auto" />
   </div>
-  <h1>Pong</h1>
+  <h1>Pong Game</h1>
   
   <p>
-    A simple pong game with AI.
+    A simple pong game with AI. <br />
+    I wrote this project to improve my skills in object-oriented programming.
   </p>
   
   
@@ -70,5 +71,6 @@ Go to the project directory
 
 Start the server
 
-```Live Server
+```bash
+  Live Server
 ```
